@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website met Knoppen</title>
+</head>
+<body>
+    <header>
+        <h1>Welkom op mijn website</h1>
+    </header>
+    <nav>
+        <button id="pagina1Button">Home</button>
+        <button id="pagina2Button">Binair stelsel</button>
+    </nav>
+    <main id="content">
+        Dit is de startpagina van mijn website.
+    </main>
 
+    <script>
+        // JavaScript om te schakelen tussen pagina's
+        const pagina1Button = document.getElementById("pagina1Button");
+        const pagina2Button = document.getElementById("pagina2Button");
+        const content = document.getElementById("content");
+
+        pagina1Button.addEventListener("click", function () {
+            content.textContent = "Dit gaat over hoe de tomos werkt";
+        });
+
+        pagina2Button.addEventListener("click", function () {
+            content.textContent = "Wat is een binair stelsel?";
+        });
+    </script>
+</body>
+</html>
