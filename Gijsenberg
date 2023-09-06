@@ -4,31 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website met Knoppen</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welkom op mijn website</h1>
+        <h1>Welkom op de Homepage</h1>
     </header>
     <nav>
-        <button id="pagina1Button">Home</button>
-        <button id="pagina2Button">Binair stelsel</button>
+        <button id="pagina1Button">Algemene informatie</button>
+        <button id="pagina2Button">Binairstelsel </button>
+        <button id="pagina3Button">Pagina 3</button>
+        <button id="pagina4Button">Pagina 4</button>
+        <button id="pagina5Button">Pagina 5</button>
     </nav>
     <main id="content">
-        Dit is de startpagina van mijn website.
+        Dit is de homepage van mijn website.
     </main>
 
     <script>
         // JavaScript om te schakelen tussen pagina's
         const pagina1Button = document.getElementById("pagina1Button");
         const pagina2Button = document.getElementById("pagina2Button");
+        const pagina3Button = document.getElementById("pagina3Button");
+        const pagina4Button = document.getElementById("pagina4Button");
+        const pagina5Button = document.getElementById("pagina5Button");
         const content = document.getElementById("content");
 
         pagina1Button.addEventListener("click", function () {
-            content.textContent = "Dit gaat over hoe de tomos werkt";
+            content.textContent = "Wat is het binair stelsel?";
         });
 
         pagina2Button.addEventListener("click", function () {
-            content.textContent = "Wat is een binair stelsel?";
+            content.textContent = "Wat is het binair stelsel?                       het Binairstelsel is een code die bestaat uit 2 cijfers. Het binairstelsel bevat de getallen 0 en 1. Het binairstelsel wordt veel gebruikt bij computers en elektronica. In het binair stelsel worden getallen gebruikt als combinaties waarbij elke positie in een binaire getalreeks een bepaalde macht van 2 is. hier zijn een paar voorbeelden:";
+        });
+
+        pagina3Button.addEventListener("click", function () {
+            content.textContent = "Dit is Pagina 3.";
+        });
+
+        pagina4Button.addEventListener("click", function () {
+            content.textContent = "Dit is Pagina 4.";
+        });
+
+        pagina5Button.addEventListener("click", function () {
+            content.textContent = "Dit is Pagina 5.";
         });
     </script>
 </body>
