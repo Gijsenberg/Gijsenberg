@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <h1>Welkom op de Homepage</h1>
+        <h1>Welkom op mijn site</h1>
     </header>
     <nav>
         <button id="pagina1Button">Algemene informatie</button>
@@ -39,7 +39,7 @@
         });
 
         pagina2Button.addEventListener("click", function () {
-            content.textContent = "Wat is het binair stelsel?                       het Binairstelsel is een code die bestaat uit 2 cijfers. Het binairstelsel bevat de getallen 0 en 1. Het binairstelsel wordt veel gebruikt bij computers en elektronica. In het binair stelsel worden getallen gebruikt als combinaties waarbij elke positie in een binaire getalreeks een bepaalde macht van 2 is. hier zijn een paar voorbeelden:";
+            content.textContent = "Wat is het binair stelsel?                       het Binairstelsel is een code die bestaat uit 2 cijfers. Het binairstelsel bevat de getallen 0 en 1. Het binairstelsel wordt veel gebruikt bij computers en elektronica. In het binair stelsel worden getallen gebruikt als combinaties waarbij elke positie in een binaire getalreeks een bepaalde macht van 2 is. hier zijn een paar voorbeelden: 0b0 (binair) 0 decimaal    0b1 (binair) 1 decimaal. Het binair stelsel is heel erg belangrijk bij het computerwetenschap en is onmisbaar.";
         });
 
         pagina3Button.addEventListener("click", function () {
@@ -56,3 +56,5 @@
     </script>
 </body>
 </html>
+
+    
