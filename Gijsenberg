@@ -20,6 +20,7 @@
         <button id="pagina3Button">Pagina 3</button>
         <button id="pagina4Button">Pagina 4</button>
         <button id="pagina5Button">Pagina 5</button>
+        <button id="pagina6Button">Pagina 6</button>
     </nav>
     <main id="content">
         Dit is de homepage van mijn website.
@@ -32,6 +33,7 @@
         const pagina3Button = document.getElementById("pagina3Button");
         const pagina4Button = document.getElementById("pagina4Button");
         const pagina5Button = document.getElementById("pagina5Button");
+        const pagina6Button = document.getElementById("pagina6Button");
         const content = document.getElementById("content");
 
         pagina1Button.addEventListener("click", function () {
@@ -53,8 +55,9 @@
         pagina5Button.addEventListener("click", function () {
             content.textContent = "Dit is Pagina 5.";
         });
+          pagina6Button.addEventListener("click", function () {
+            content.textContent = "Dit is Pagina 6.";
+              });
     </script>
 </body>
 </html>
-
-    
